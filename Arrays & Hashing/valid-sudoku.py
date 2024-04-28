@@ -1,15 +1,6 @@
 # https://leetcode.com/problems/valid-sudoku/submissions/1097913064
 # row can have digits betwen 1-9 and . (empty)
-# digit should not be in same row, col or 3x3 grids of the og table 
-# _|_|_||_|_|_||_|_|_
-# _|_|_||_|_|_||_|_|_
-# =|=|=||=|=|=||=|=|=
-# _|_|_||_|_|_||_|_|_
-# _|_|_||_|_|_||_|_|_
-# =|=|=||=|=|=||=|=|=
-# _|_|_||_|_|_||_|_|_
-# _|_|_||_|_|_||_|_|_
-# =|=|=||=|=|=||=|=|=
+# digit should not be in same row, col or 3x3 grids of the og table
 import logging
 
 

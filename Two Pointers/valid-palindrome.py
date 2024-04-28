@@ -1,10 +1,15 @@
 # https://leetcode.com/problems/valid-palindrome/
 # https://leetcode.com/problems/valid-palindrome/submissions/1097932406/
+import string
+
+valid_chars = set(string.ascii_lowercase)
+
+
 class Solution:
-    chars = ()
+
     def isPalindrome(self, s: str) -> bool:
         def ignore_char(char:str) -> bool:
-            return char.isalnum() == False or char == ' '
+            return not ((char in valid_chars) or (char != ' '))
 
         start = 0
         end = len(s) - 1
